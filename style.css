@@ -101,6 +101,11 @@ html,body{
     display:flex;
     width: 100%;
     align-items: center;
+    justify-content: space-between;
+}
+.story-img .dets .top .right{
+    display: flex;
+    align-items: center;
 }
 .story-img .dets .top img{
     height: 3vw;
@@ -109,6 +114,9 @@ html,body{
     object-position: center;
     margin-right: 1vw;
     border-radius: 50%;
+}
+.id{
+    margin-right: 3vw;
 }
 .story-img .dets .song{
     display: flex;
@@ -142,5 +150,8 @@ html,body{
         height: 8vw;
         width:8vw;
         margin-right: 2vw;
+    }
+    .id{
+        margin-right: 10vw;
     }
 }

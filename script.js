@@ -25,8 +25,10 @@ function storyRender(array){
         <div class="story-loader"></div>
         <div class="dets" style="color:white;">
             <div class="top">
-                <div class="dp"><img src="${elem.dp}" alt=""></div>
-                <div class="id" style="margin-right: 3vw;"><p>${elem.userid}</p></div>
+                <div class="right">
+                    <div class="dp"><img src="${elem.dp}" alt=""></div>
+                    <div class="id"><p>${elem.userid}</p></div>
+                </div>
                 <div class="time">5 hours ago</div>
             </div>
             <div class="song" style="width:40%;padding: 0 3vw;">
