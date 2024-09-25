@@ -31,8 +31,8 @@ function storyRender(array){
                 </div>
                 <div class="time">5 hours ago</div>
             </div>
-            <div class="song" style="width:40%;padding: 0 3vw;">
-                <i class="ri-music-2-fill"></i><marquee><p>${elem.song}</p></marquee>
+            <div class="song" style="width:60%;padding: 0 3vw;">
+                <i class="ri-music-2-fill"></i><marquee><p class="marquee">${elem.song}</p></marquee>
             </div>
         </div>
         <img src="${elem.story}"/>

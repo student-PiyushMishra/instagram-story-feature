@@ -118,6 +118,17 @@ html,body{
 .id{
     margin-right: 3vw;
 }
+.marquee {
+    animation: marquee 3s linear infinite;
+}
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
 .story-img .dets .song{
     display: flex;
     gap: 3vw;
